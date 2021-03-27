@@ -51,11 +51,12 @@ public class MainActivity extends AppCompatActivity {
         Button button0 = findViewById(R.id.button_0);
         button0.setOnClickListener(v -> {
             if (sb.length() != 0) {
-                sb.append(0);
                 input.append("0");
             } else{
                 input.setText("0");
             }
+            sb.append(0);
+
         });
     }
 
@@ -249,11 +250,13 @@ public class MainActivity extends AppCompatActivity {
     private void initButtonEquals() {
         Button buttonEquals = findViewById(R.id.button_equals);
         buttonEquals.setOnClickListener( v_->{
-            calculator.setSecondNum(Double.valueOf(sb.toString()));
-            saved.setText(calculator.getFirstNum() + " "+ calculator.getCurrentAction() + " "+ calculator.getSecondNum()+" =");
-            calculator.makeCalculation();
-            sb.delete(0, sb.length());
-            input.setText(String.valueOf(calculator.getResult()));
+            if (calculator.getCurrentAction() != null & sb.length() >0) {
+                calculator.setSecondNum(Double.valueOf(sb.toString()));
+                saved.setText(calculator.getFirstNum() + " " + calculator.getCurrentAction() + " " + calculator.getSecondNum() + " =");
+                calculator.makeCalculation();
+                sb.delete(0, sb.length());
+                input.setText(String.valueOf(calculator.getResult()));
+            }
         });
     }
 }
