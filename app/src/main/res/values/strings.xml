@@ -10,11 +10,12 @@
     <string name="Button_8">8</string>
     <string name="Button_9">9</string>
     <string name="buttonC">C</string>
-    <string name="buttonPoint">.</string>
+    <string name="button_Dot">.</string>
     <string name="Button_0">0</string>
     <string name="button_division">/</string>
     <string name="button_multiplication">*</string>
     <string name="button_subtraction">-</string>
-    <string name="button_sum">+</string>
+    <string name="button_addition">+</string>
     <string name="button_Equals">=</string>
+    <string name="init_screen">0</string>
 </resources>
