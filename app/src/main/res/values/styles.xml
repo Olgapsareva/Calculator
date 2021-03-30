@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <style name="Light_Theme" parent="Theme.MyCalculator">
+        <item name="colorPrimary">@color/button_actions</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <style name="Dark_Theme" parent="Theme.MyCalculator">
+        <item name="colorPrimary">@color/button_C</item> <!--кнопка-->
+        <item name="colorAccent">@color/button_numbers</item> <!--акцент типа рэдио баттон-->
+    </style>
+
     <style name="RootLayout">
-    <item name="android:background">@color/white</item>
+        <item name="android:background">@color/white</item>
     </style>
     <style name="SavedDataView">
         <item name="android:background">@color/white</item>
@@ -32,5 +43,9 @@
         <item name="android:backgroundTint">@color/button_C</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:layout_margin">@dimen/button_margin</item>
-    </style>>
+    </style>
+
+    <style name="RadioButtons">
+        <item name="android:textColor">@color/black</item>
+    </style>
 </resources>

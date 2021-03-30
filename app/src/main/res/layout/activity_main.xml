@@ -62,7 +62,7 @@
             android:layout_width="@dimen/width_all_elements"
             android:layout_height="@dimen/button_height"
             android:layout_weight="1"
-            android:text="@string/Button_7" />
+            android:text="@string/button_7" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_8"
@@ -70,7 +70,7 @@
             android:layout_width="@dimen/width_all_elements"
             android:layout_height="@dimen/button_height"
             android:layout_weight="1"
-            android:text="@string/Button_8" />
+            android:text="@string/button_8" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_9"
@@ -78,7 +78,7 @@
             android:layout_width="@dimen/width_all_elements"
             android:layout_height="@dimen/button_height"
             android:layout_weight="1"
-            android:text="@string/Button_9" />
+            android:text="@string/button_9" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_Division"
@@ -102,7 +102,7 @@
             android:layout_width="@dimen/width_all_elements"
             android:layout_height="@dimen/button_height"
             android:layout_weight="1"
-            android:text="@string/Button_4" />
+            android:text="@string/button_4" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_5"
@@ -110,7 +110,7 @@
             android:layout_width="@dimen/width_all_elements"
             android:layout_height="@dimen/button_height"
             android:layout_weight="1"
-            android:text="@string/Button_5" />
+            android:text="@string/button_5" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_6"
@@ -118,7 +118,7 @@
             android:layout_width="@dimen/width_all_elements"
             android:layout_height="@dimen/button_height"
             android:layout_weight="1"
-            android:text="@string/Button_6" />
+            android:text="@string/button_6" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_multiplicaion"
@@ -141,7 +141,7 @@
             android:layout_width="@dimen/width_all_elements"
             android:layout_height="@dimen/button_height"
             android:layout_weight="1"
-            android:text="@string/Button_1" />
+            android:text="@string/button_1" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_2"
@@ -149,7 +149,7 @@
             android:layout_width="@dimen/width_all_elements"
             android:layout_height="@dimen/button_height"
             android:layout_weight="1"
-            android:text="@string/Button_2" />
+            android:text="@string/button_2" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_3"
@@ -157,7 +157,7 @@
             android:layout_width="@dimen/width_all_elements"
             android:layout_height="@dimen/button_height"
             android:layout_weight="1"
-            android:text="@string/Button_3" />
+            android:text="@string/button_3" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_subtraction"
@@ -187,7 +187,7 @@
             android:layout_width="@dimen/width_all_elements"
             android:layout_height="@dimen/button_height"
             android:layout_weight="1"
-            android:text="@string/Button_0" />
+            android:text="@string/button_0" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_Dot"
